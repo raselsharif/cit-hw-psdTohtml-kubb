@@ -213,7 +213,14 @@ li {
     align-items: center;
     row-gap: 10px;
 }
-
+.socialImage{
+    height: 327px;
+    max-width: 400px;
+}
+.socialImage img{
+    height: 100%;
+    width: 100%;
+}
 .socialLink {
     text-align: center;
 }
