@@ -2,9 +2,6 @@
 @media screen and (max-width: 575.98px) {
     #nav {
         padding: 24px 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
     }
 
     .menuArea {
@@ -115,4 +112,109 @@
     .contactMain {
         flex-direction: column;
     }
+}
+
+/* small device */
+@media screen and (min-width: 576px) and (max-width:767.98px) {
+        #nav {
+            padding: 24px 0;
+        }
+    
+        .menuArea {
+            position: relative;
+        }
+    
+        .menu ul {
+            display: none;
+            top: 0px;
+        }
+    
+        .menu ul.menuToggle {
+            display: flex;
+            position: absolute;
+            top: 74px;
+            right: 0px;
+            flex-direction: column;
+            background: rgba(0, 0, 0, 0.44);
+            padding: 15px 30px;
+            gap: 20px;
+            text-align: right;
+        }
+    
+        .menuArea {
+            display: flex;
+            padding: 0 10px;
+        }
+    
+        #toggle-btn {
+            background: url(../Images/icons/toggle.svg);
+            height: 50px;
+            width: 50px;
+            cursor: pointer;
+        }
+    
+        /* ======== banner ====== */
+        #banner {
+            padding-top: 200px;
+            padding-bottom: 170px;
+        }
+    
+        .bannerArea h1 {
+            line-height: 1.2;
+        }
+    
+        .bannerArea h2 {
+            font-size: 35px;
+        }
+    
+        /* ======== latest shorts ====== */
+        #social .headingAll h3 {
+            line-height: 1.4;
+        }
+    
+        .socialImageMain {
+            padding-top: 43px;
+            padding-bottom: 60px;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    
+        /* ======== about ======= */
+        #about {
+            text-align: center;
+        }
+    
+        .aboutMeMain {
+            flex-direction: column;
+        }
+    
+        .aboutMeDescription {
+            padding-right: 0px;
+        }
+    
+        .aboutMeDescription p:nth-child(1) {
+            text-align: center;
+        }
+    
+        .serviceImage {
+            padding-right: 0px;
+        }
+    
+    
+        .aboutMe {
+            width: 100%;
+        }
+    
+        .serviceFlex {
+            display: block;
+        }
+    
+        .myService {
+            width: 100%;
+        }
+    
+        /* contact */
+        .contactMain {
+            flex-direction: column;
+        }
 }
